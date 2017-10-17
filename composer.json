@@ -1,0 +1,30 @@
+{
+  "name": "crmoz/getresponse-api",
+  "description": "Getresponse API client for Laravel",
+  "keywords": [
+    "getresponse",
+    "getresponse360",
+    "laravel",
+    "contacts",
+    "leads"
+  ],
+  "type": "library",
+  "license": "MIT",
+  "authors": [
+    {
+      "name": "Nikolay",
+      "email": "n.ponich@gmail.com"
+    }
+  ],
+  "require": {
+    "php": ">=7.0.0",
+    "illuminate/support": "5.4.*|5.5.*",
+    "guzzlehttp/guzzle": "^6.3.0"
+  },
+  "autoload": {
+    "psr-4": {
+      "Crmoz\\GetresponseApi\\": "src/"
+    }
+  },
+  "minimum-stability": "dev"
+}

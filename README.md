@@ -9,7 +9,7 @@
 
 ### Установка
 
-``composer require crmoz/getresponse-api``
+``composer require crmoz/getresponse-api:dev-master``
 
 
 #### @todo
